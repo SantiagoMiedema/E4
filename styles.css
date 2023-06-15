@@ -1,0 +1,106 @@
+*{
+    margin: 0 ; 
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+header{
+    background: red;
+    border-bottom: black 10px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+section img{
+    height: 200px;
+    width: auto;
+    
+}
+
+.search-input {
+    background-color: lightgray;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container img {
+    width: 35px;
+    height: 35px;
+}
+
+.input-container button{
+    margin-left: 15px;
+    background-color: black;
+    color: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.card-container{
+    background-color: orange;
+    border: black 2px solid;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+}
+
+.card-container img {
+    background-color: white;
+    border: 3px red solid;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.info-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: black 3px solid;
+    padding: 30px;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.info-card p {
+    font-weight: 600;
+}
+
+.info-card h2{
+
+}
